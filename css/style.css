@@ -85,10 +85,11 @@ header{
     margin-bottom: 100px;
  }
 
- .slider img {
+ .slider-items img {
      filter: brightness(52%);
      height: 607px;
      object-fit: cover;  
+     width: 100%;
  }
 
 .slider-items{
@@ -101,7 +102,7 @@ header{
     transform: translate(-50%, -50%);
     text-transform: uppercase;
     font: 300 24px "Roboto",'sans serif';
-    color: #FFFF;
+    color: #FFffFF;
     line-height: 54px;
 
 }
@@ -114,7 +115,7 @@ header{
     position: relative;
 }
 
-.slider bottom {
+.slider botton {
     border: none;
     width: 104px;
     height: 104px;
@@ -125,8 +126,17 @@ header{
     font: 200 100px 'Pe', 'sans serif';
     text-align: center;
     line-height: 104px;
-    color: #ffff;
+    color: #ffffff;
+    cursor: pointer;
 }
+
+.next img, .preview img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 .preview{
     left: 16%;
@@ -187,7 +197,7 @@ header{
 .items-inform > p, .items-inform > span{
     float: left;
     line-height: 42px;
-    color: #ffff;
+    color: #ffffff;
     font-weight: 600;
     letter-spacing: normal;
    
@@ -236,7 +246,7 @@ header{
     box-sizing: border-box;
     width: 100%;
     text-transform: uppercase;
-    color:#ffff;
+    color:#ffffff;
     font: 300 16px 'Roboto', 'sans serif';
     text-align: center;
     padding: 12px 0px 0px 25px ;
@@ -253,7 +263,7 @@ header{
     list-style: none;
     width: 45px;
     height: 45px;
-    border: 1px solid #fff;
+    border: 1px solid #ffffff;
     display: inline-block;
     vertical-align: top;
     text-align: center;
@@ -308,7 +318,7 @@ header{
     background-color: #313131;
     font: 400 16px 'Open Sans', 'sans-serif';
     letter-spacing: normal;
-    color: #ffff;
+    color: #ffffff;
 
 }
 .main-footer > p{
@@ -318,7 +328,5 @@ header{
     transform: translate(-50%, -50%);
 }
 .main-footer p > span {
-    color: #45BEA9;
-    
-    
+    color: #45BEA9;   
 }
