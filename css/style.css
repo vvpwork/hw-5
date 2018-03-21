@@ -7,6 +7,7 @@ body {
     
 }
 
+
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
@@ -115,7 +116,7 @@ header{
     position: relative;
 }
 
-.slider botton {
+.slider button {
     border: none;
     width: 104px;
     height: 104px;
@@ -242,14 +243,20 @@ header{
     left:50%;
     transform: translate(-50%, -50%);
 }
+button{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background: 0;
+    text-transform: uppercase;
+    color:#ffffff;
+    font: 300 14px 'Roboto', 'sans serif';
+    text-align: center;
+}
 .mask-list li:last-child{
     box-sizing: border-box;
     width: 100%;
-    text-transform: uppercase;
-    color:#ffffff;
-    font: 300 16px 'Roboto', 'sans serif';
-    text-align: center;
-    padding: 12px 0px 0px 25px ;
+    padding: 8px 0px 0px 30px ;
 }
 
 
